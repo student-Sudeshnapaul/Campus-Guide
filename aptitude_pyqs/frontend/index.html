@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Placement Helper – Aptitude</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Placement Helper – Aptitude Practice</h1>
+
+<h2>Practice by Category</h2>
+
+<div class="category-container">
+    <button onclick="showTopics('quant')">Quantitative</button>
+    <button onclick="showTopics('reasoning')">Reasoning</button>
+    <button onclick="showTopics('verbal')">Verbal</button>
+</div>
+
+<div id="topics-area" class="content-box"></div>
+
+<hr>
+
+<h2>Company-wise PYQs</h2>
+
+<div class="company-container">
+    <div class="company-box" onclick="showPYQs('tcs')">TCS</div>
+    <div class="company-box" onclick="showPYQs('infosys')">Infosys</div>
+    <div class="company-box" onclick="showPYQs('wipro')">Wipro</div>
+    <div class="company-box" onclick="showPYQs('cognizant')">Cognizant</div>
+</div>
+
+<div id="pyq-area" class="content-box"></div>
+<script src="script.js"></script>
+</body>
+</html>
+<button id="startExamBtn" onclick="startExam()">Start Exam</button>
+
+<div id="exam-area" class="content-box"></div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
