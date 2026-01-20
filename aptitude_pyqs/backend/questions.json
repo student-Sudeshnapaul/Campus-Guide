@@ -1,0 +1,16 @@
+[
+  {
+    "section": "Quantitative Aptitude",
+    "topic": "Profit and Loss",
+    "question": "A shopkeeper gains 20%. Find CP if SP is 120.",
+    "options": ["100", "90", "110", "95"],
+    "correctAnswer": "100"
+  },
+  {
+    "section": "Quantitative Aptitude",
+    "topic": "Profit and Loss",
+    "question": "If CP is 80 and gain is 25%, find SP.",
+    "options": ["100", "90", "110", "95"],
+    "correctAnswer": "100"
+  }
+]

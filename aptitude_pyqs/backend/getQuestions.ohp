@@ -1,0 +1,22 @@
+<?php
+header("Access-Control-Allow-Origin: *");
+header("Content-Type: application/json");
+
+// Read JSON file
+$data = file_get_contents("questions.json");
+
+// Convert JSON to PHP array
+$questions = json_decode($data, true);
+
+// Get query parameters
+$section = $_GET['section'];
+$topic = $_GET['topic'];
+
+// Filter questions
+$filtered = array_filter($questions, function($q) use ($section, $topic) {
+    return $q['section'] === $section && $q['topic'] === $topic;
+});
+
+// Send result as JSON
+echo json_encode(array_values($filtered));
+?>

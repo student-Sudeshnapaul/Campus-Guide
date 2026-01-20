@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: #f4f6f8;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.category-container,
+.company-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.company-box {
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 180px;
+    text-align: center;
+}
+
+.company-box:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.content-box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+ul {
+    margin-top: 10px;
+}
+#startExamBtn {
+    margin-top: 20px;
+    background-color: #28a745;
+    font-size: 20px;
+}
+
+#startExamBtn:hover {
+    background-color: #1e7e34;
+}
+
+.option {
+    margin: 8px 0;
+    font-size: 17px;
+}
